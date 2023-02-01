@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">    <!--Iframe web sayfası içinde  başka bir web sayfası gösterimi için kullanılır -->
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>   HTML IFRAMES</h1>
+<iframe src ="demo_iframe.html" height="200" width="300" title="Iframe Example"></iframe> 
+
+<iframe src="demo_iframe.html" style="border:2px solid red;" title="Iframe Example"></iframe> 
+<!--Css ile kenarlığın boyutunu,stilin, ve rengini de değşiştirebilirsiniz-->
+
+<iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+<!--target ile atıfta bulunabilir-->
+    
+</body>
+</html>
+
+<!--
+    HTML <iframe>etiketi bir satır içi çerçeve belirtir
+Öznitelik , src gömülecek sayfanın URL'sini tanımlar
+Her zaman bir title özellik ekleyin (ekran okuyucular için)
+ve öznitelikleri height, widthiframe'in boyutunu belirtir
+border:none;iframe etrafındaki kenarlığı kaldırmak için kullanın
+-->
