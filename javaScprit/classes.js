@@ -27,3 +27,5 @@ class Car {                             //"car" adlı bir sınıf oluşturur.
   let myCar1 = new Car1("Ford", 2014);
   document.getElementById("demo").innerHTML=
    "My car is " + myCar.age(year) + " years old.";
+
+   console.log('test')
